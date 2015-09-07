@@ -40,15 +40,19 @@ class ViewController: UIViewController {
         messageLabel.textColor=UIColor.redColor();
         messageLabel.numberOfLines=0
         
-        //enterEnterMessage.resignFirstResponder()
+        enterEnterMessage.resignFirstResponder()
+        enterEnterName.resignFirstResponder()
         
-        if(enterEnterMessage.text==""){
-            mailSend.setTitle("Send Message", forState: UIControlState.Normal)
-        } else {
-           mailSend.setTitle("Mail Sent", forState: UIControlState.Normal)
+        if(enterEnterMessage.text=="" || enterEnterName.text==""){
+            messageLabel.text="please fill all the fields"
+            nameTextLabel.text=""
+        
+            
+                    } else {
+           mailSend.setTitle("Message Sent", forState: UIControlState.Normal)
         }
         
-        nameTextLabel.text=""
+        enterEnterName.text=""
         enterEnterMessage.text=""
         
         
