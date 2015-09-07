@@ -13,6 +13,8 @@
 		3B0BF5761B9CB58D004D20D9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B0BF5751B9CB58D004D20D9 /* Images.xcassets */; };
 		3B0BF5791B9CB58D004D20D9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B0BF5771B9CB58D004D20D9 /* LaunchScreen.xib */; };
 		3B0BF5851B9CB58D004D20D9 /* PostcardSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0BF5841B9CB58D004D20D9 /* PostcardSwiftTests.swift */; };
+		3B0BF58F1B9CC189004D20D9 /* sagrada-familia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B0BF58E1B9CC189004D20D9 /* sagrada-familia.jpg */; };
+		3B0BF5911B9CC190004D20D9 /* anstine Stamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B0BF5901B9CC190004D20D9 /* anstine Stamp.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		3B0BF57E1B9CB58D004D20D9 /* PostcardSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B0BF5831B9CB58D004D20D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B0BF5841B9CB58D004D20D9 /* PostcardSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardSwiftTests.swift; sourceTree = "<group>"; };
+		3B0BF58E1B9CC189004D20D9 /* sagrada-familia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sagrada-familia.jpg"; sourceTree = "<group>"; };
+		3B0BF5901B9CC190004D20D9 /* anstine Stamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "anstine Stamp.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		3B0BF56C1B9CB58D004D20D9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3B0BF5901B9CC190004D20D9 /* anstine Stamp.jpg */,
+				3B0BF58E1B9CC189004D20D9 /* sagrada-familia.jpg */,
 				3B0BF56D1B9CB58D004D20D9 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,8 +199,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B0BF5741B9CB58D004D20D9 /* Main.storyboard in Resources */,
+				3B0BF58F1B9CC189004D20D9 /* sagrada-familia.jpg in Resources */,
 				3B0BF5791B9CB58D004D20D9 /* LaunchScreen.xib in Resources */,
 				3B0BF5761B9CB58D004D20D9 /* Images.xcassets in Resources */,
+				3B0BF5911B9CC190004D20D9 /* anstine Stamp.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
