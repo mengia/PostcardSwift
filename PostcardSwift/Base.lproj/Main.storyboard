@@ -78,13 +78,13 @@
                                     <action selector="sendMailButtonPressed:" destination="FkC-I8-ZfO" eventType="touchUpInside" id="BHF-AO-xpj"/>
                                 </connections>
                             </button>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iOv-6K-dXz">
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iOv-6K-dXz">
                                 <rect key="frame" x="44" y="97" width="476" height="81"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="18" y="72" width="335" height="47"/>
+                                    <rect key="frame" x="63" y="72" width="280" height="47"/>
                                 </variation>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="anstine Stamp.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="oO9-8L-ByZ">
@@ -93,6 +93,15 @@
                                     <rect key="frame" x="230" y="127" width="113" height="100"/>
                                 </variation>
                             </imageView>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="nameLabel" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HwX-oh-PSd">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="highlightedColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="63" y="132" width="159" height="35"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -102,6 +111,7 @@
                                 <exclude reference="LYP-ew-CSw"/>
                                 <exclude reference="iOv-6K-dXz"/>
                                 <exclude reference="oO9-8L-ByZ"/>
+                                <exclude reference="HwX-oh-PSd"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -111,6 +121,7 @@
                                 <include reference="LYP-ew-CSw"/>
                                 <include reference="iOv-6K-dXz"/>
                                 <include reference="oO9-8L-ByZ"/>
+                                <include reference="HwX-oh-PSd"/>
                             </mask>
                         </variation>
                     </view>
@@ -119,11 +130,12 @@
                         <outlet property="enterEnterName" destination="Sbw-9d-c1o" id="yMM-iT-7U9"/>
                         <outlet property="mailSend" destination="LYP-ew-CSw" id="HRm-Sr-1b7"/>
                         <outlet property="messageLabel" destination="iOv-6K-dXz" id="1br-fu-kb5"/>
+                        <outlet property="nameTextLabel" destination="HwX-oh-PSd" id="S7x-wg-h7x"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jRY-ih-gR2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1687" y="-362"/>
+            <point key="canvasLocation" x="1686" y="-362"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="b32-bv-Ogl">

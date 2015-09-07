@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var mailSend: UIButton!
     
+    @IBOutlet weak var nameTextLabel: UILabel!
     
 
     override func viewDidLoad() {
@@ -29,18 +30,27 @@ class ViewController: UIViewController {
     }
     @IBAction func sendMailButtonPressed(sender:UIButton){
         // second commit to check the repo 
+        nameTextLabel.hidden=false
+        nameTextLabel.text=enterEnterName.text
+        nameTextLabel.textColor=UIColor.blueColor()
+        nameTextLabel.numberOfLines=0
+        
         messageLabel.hidden=false
         messageLabel.text=enterEnterMessage.text
         messageLabel.textColor=UIColor.redColor();
         messageLabel.numberOfLines=0
         
-        enterEnterMessage.resignFirstResponder()
+        //enterEnterMessage.resignFirstResponder()
+        
         if(enterEnterMessage.text==""){
             mailSend.setTitle("Send Message", forState: UIControlState.Normal)
         } else {
            mailSend.setTitle("Mail Sent", forState: UIControlState.Normal)
         }
+        
+        nameTextLabel.text=""
         enterEnterMessage.text=""
+        
         
         
     }
