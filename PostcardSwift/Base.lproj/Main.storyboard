@@ -50,7 +50,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Enter Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Sbw-9d-c1o">
-                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <rect key="frame" x="36" y="334" width="383" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
@@ -58,7 +58,7 @@
                                 </variation>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Enter Massage" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6jB-eD-FlP">
-                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <rect key="frame" x="37" y="385" width="309" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
@@ -66,7 +66,7 @@
                                 </variation>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LYP-ew-CSw">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <rect key="frame" x="37" y="285" width="264" height="30"/>
                                 <color key="backgroundColor" red="1" green="0.86794430012472201" blue="0.3237659523274149" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Send Message">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -75,11 +75,11 @@
                                     <rect key="frame" x="30" y="197" width="192" height="30"/>
                                 </variation>
                                 <connections>
-                                    <action selector="sendMailButtonPressed:" destination="FkC-I8-ZfO" eventType="touchUpInside" id="L1m-Ev-6Nx"/>
+                                    <action selector="sendMailButtonPressed:" destination="FkC-I8-ZfO" eventType="touchUpInside" id="BHF-AO-xpj"/>
                                 </connections>
                             </button>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iOv-6K-dXz">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <rect key="frame" x="44" y="97" width="476" height="81"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -88,7 +88,7 @@
                                 </variation>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="anstine Stamp.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="oO9-8L-ByZ">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <rect key="frame" x="319" y="219" width="100" height="100"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="230" y="127" width="113" height="100"/>
                                 </variation>
@@ -115,15 +115,15 @@
                         </variation>
                     </view>
                     <connections>
-                        <outlet property="enterEnterMessage" destination="6jB-eD-FlP" id="ZRs-Y3-1dm"/>
-                        <outlet property="enterEnterName" destination="Sbw-9d-c1o" id="kxT-Uc-7xv"/>
-                        <outlet property="mailSend" destination="LYP-ew-CSw" id="89J-Df-WAI"/>
-                        <outlet property="messageLabel" destination="iOv-6K-dXz" id="WEJ-A6-PZl"/>
+                        <outlet property="enterEnterMessage" destination="6jB-eD-FlP" id="CHJ-Ya-AD4"/>
+                        <outlet property="enterEnterName" destination="Sbw-9d-c1o" id="yMM-iT-7U9"/>
+                        <outlet property="mailSend" destination="LYP-ew-CSw" id="HRm-Sr-1b7"/>
+                        <outlet property="messageLabel" destination="iOv-6K-dXz" id="1br-fu-kb5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jRY-ih-gR2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1687.5" y="-362"/>
+            <point key="canvasLocation" x="1687" y="-362"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="b32-bv-Ogl">
